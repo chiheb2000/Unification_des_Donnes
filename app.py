@@ -87,13 +87,10 @@ def ton_modele_verification(cin, email, date_naissance, sexe, lieu, existing_rec
             score = (matches / total_criteria) * 100
         else:  
             score = 0
-
     new_pair_df = pd.DataFrame([new_pair])
 
     prediction = tree_model.predict(new_pair_df)
-
     return prediction[0], score  
-
 def create_progress_bar(percentage):
     bar_length = 10  
     filled_length = int(percentage / 10)  
