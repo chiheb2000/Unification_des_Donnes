@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+    color: #0047ab;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.subtitle {
+    color: #0047ab;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+div[class*="stTextInput"] label p {
+    font-size: 18px;
+    color: #e62d2d;
+    font-weight: bold;
+}
+div[class*="stTextInput"] label p {
+    font-size: 18px;
+    color: #e62d2d;
+    font-weight: bold;
+}
+div[class*="stDateInput"] label p {
+    font-size: 18px;
+    color: #0047ab;
+    font-weight: bold;
+}
+
+div[class*="stSelectbox"] label p {
+    font-size: 18px;
+    color: #e62d2d;
+    font-weight: bold;
+}
+
+div[class*="stTextArea"] label p {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}

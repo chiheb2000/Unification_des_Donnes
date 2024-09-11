@@ -1,0 +1,9 @@
+# Fichiers de base de données
+personnes.csv
+dataSoundexFinal.csv
+
+# Fichiers de modèle
+*.p
+
+# Fichiers d'environnement
+env
