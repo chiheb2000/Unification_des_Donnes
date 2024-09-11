@@ -18,11 +18,10 @@ def load_data(uploaded_file):
         try:
             df = pd.read_csv(uploaded_file)
             
-            # Appliquer la fonction Soundex aux colonnes Prénom et Nom
             if 'Prénom' in df.columns and 'Nom' in df.columns:
                 df['Prénom_Soundex'] = df['Prénom'].apply(soundex)
                 df['Nom_Soundex'] = df['Nom'].apply(soundex)
-                st.session_state['data_loaded'] = True  # Marquer les données comme chargées
+                st.session_state['data_loaded'] = True 
                 st.session_state['df'] = df
                 st.success("Données préparées avec succès !")
             else:
