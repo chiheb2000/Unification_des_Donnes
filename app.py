@@ -78,7 +78,6 @@ def ton_modele_verification(cin, email, date_naissance, sexe, lieu, existing_rec
         'Lieu_Match': int(lieu == existing_record['Lieu']),
     }
     score = 0
-
     if new_pair['CIN_Match'] or new_pair['Email_Match']:
         score = 100  
     else:
