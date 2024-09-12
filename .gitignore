@@ -7,3 +7,6 @@ dataSoundexFinal.csv
 
 # Fichiers d'environnement
 env
+
+# Fichiers d'image (si tu veux ignorer tous les fichiers d'images)
+*.png
