@@ -17,7 +17,6 @@ Avant de démarrer le projet, assurez-vous d'avoir installé les dépendances su
 - matplotlib
 - streamlit
 - scikit-learn
-
 ## Utilisation
 1. Lancer l'application Streamlit :
     ```bash
